@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+'use strict';
+
+var dex = require('..');
+var args = process.argv.slice(2);
+var input = args[0];
+var from = parseInt(args[1] || 16);
+var to = parseInt(args[2] || 10);
+
+console.log(dex(input, from, to));

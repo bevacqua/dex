@@ -28,6 +28,14 @@ Returns `input` converted into **base<sub>`to`</sub>** representation. Assumes `
 - `input` gets lowercased by `dex`, so you don't need to
 - Result is always a lowercase string representation of the number in the requested notation
 
+# CLI
+
+```shell
+dex <input> [from] [to]
+```
+
+Prints to standard output the results of doing `dex(input, from=16, to=10)`.
+
 # License
 
 MIT

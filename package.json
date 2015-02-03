@@ -16,6 +16,9 @@
   "scripts": {
     "test": "tape test/*.js"
   },
+  "bin": {
+    "dex": "bin/dex"
+  },
   "devDependencies": {
     "tape": "^3.5.0"
   }
