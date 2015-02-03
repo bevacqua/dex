@@ -14,12 +14,13 @@
     "url": "git://github.com/bevacqua/dex.git"
   },
   "scripts": {
-    "test": "tape test/*.js"
+    "test": "jshint . && tape test/*.js"
   },
   "bin": {
     "dex": "bin/dex"
   },
   "devDependencies": {
+    "jshint": "^2.6.0",
     "tape": "^3.5.0"
   }
 }
