@@ -12,15 +12,15 @@ npm install --save dex
 
 # `dex.hex(input)`
 
-Returns `input` converted into **base<sub>16</sub>** representation. Assumes `input` is **base<sub>10</sub>** string.
+Returns `input` converted into **base<sub>16</sub>** representation. Assumes `input` is a **base<sub>10</sub>** string, or a `Number`.
 
 # `dex.dec(input)`
 
-Returns `input` converted into **base<sub>10</sub>** representation. Assumes `input` is **base<sub>16</sub>** string.
+Returns `input` converted into **base<sub>10</sub>** representation. Assumes `input` is a **base<sub>16</sub>** string.
 
 # `dex(input, from, to)`
 
-Returns `input` converted into **base<sub>`to`</sub>** representation. Assumes `input` is **base<sub>`from`</sub>** string.
+Returns `input` converted into **base<sub>`to`</sub>** representation. Assumes `input` is a **base<sub>`from`</sub>** string.
 
 # Notes
 
