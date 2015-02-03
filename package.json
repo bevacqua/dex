@@ -1,7 +1,7 @@
 {
   "name": "dex",
   "description": "Translate data from base-from into base-to and back",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "homepage": "https://github.com/bevacqua/dex",
   "author": {
     "name": "Nicolas Bevacqua",
