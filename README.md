@@ -1,0 +1,33 @@
+# dex
+
+> Translate data from **base<sub>`a`</sub>** into **base<sub>`n`</sub>** and back
+
+# Install
+
+From `npm`
+
+```shell
+npm install --save dex
+```
+
+# `dex.hex(input)`
+
+Returns `input` converted into **base<sub>16</sub>** representation. Assumes `input` is **base<sub>10</sub>** string.
+
+# `dex.dec(input)`
+
+Returns `input` converted into **base<sub>10</sub>** representation. Assumes `input` is **base<sub>16</sub>** string.
+
+# `dex(input, from, to)`
+
+Returns `input` converted into **base<sub>`to`</sub>** representation. Assumes `input` is **base<sub>`from`</sub>** string.
+
+# Notes
+
+- `dex` accepts only non-empty strings and numeric `input`s, every other `input` value will result in `null` being returned
+- `input` gets lowercased by `dex`, so you don't need to
+- Result is always a lowercase string representation of the number in the requested notation
+
+# License
+
+MIT

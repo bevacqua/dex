@@ -1,0 +1,22 @@
+{
+  "name": "dex",
+  "description": "Translate data from base-from into base-to and back",
+  "version": "1.0.0",
+  "homepage": "https://github.com/bevacqua/dex",
+  "author": {
+    "name": "Nicolas Bevacqua",
+    "email": "ng@bevacqua.io",
+    "url": "http://bevacqua.io"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bevacqua/dex.git"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "devDependencies": {
+    "tape": "^3.5.0"
+  }
+}
