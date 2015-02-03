@@ -51,5 +51,5 @@ Object.keys(cases).forEach(function (tc) {
     var result = dex[c.fn].apply(null, c.inputs);
     t.equal(result, c.expectation);
     t.end();
-  })
+  });
 });

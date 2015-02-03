@@ -41,9 +41,9 @@ function times (number, x, base) {
 }
 
 function parse (text, base) {
-  return text.split('').reverse().map(digit).filter(numbers);
+  return text.split('').reverse().map(digitize).filter(numbers);
 
-  function digit (digit) {
+  function digitize (digit) {
     return parseInt(digit, base);
   }
   function numbers (digit) {
